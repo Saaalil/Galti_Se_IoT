@@ -1,47 +1,45 @@
 import { people01, people02, people03, facebook, instagram, linkedin, twitter, airbnb, binance, coinbase, dropbox, send, shield, star  } from "../assets";
 
-export const navLinks = [
-  {
-    id: "home",
-    title: "Home",
-  },
-  {
-    id: "Services",
-    title: "Services",
-  },
-  {
-    id: "Map",
-    title: "Maps",
-  },
-  {
-    id: "About US",
-    title: "About US",
-    window.location.href = "aboutus.js",
-
-  },
-];
+// export const navLinks = [
+//   {
+//     id: "home",
+//     title: "Home",
+//   },
+//   {
+//     id: "Maps",
+//     title: "Maps",
+//   },
+//   {
+//     id: "Services",
+//     title: "Warnings",
+//   },
+//   {
+//     id: "Login",
+//     title: "Login/Signup",
+//   },
+// ];
 
 export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Rewards",
+    title: "Real Time",
     content:
-      "The best credit cards offer some tantalizing combinations of promotions and prizes",
+      "Real Time recommendations to the farmer",
   },
   {
     id: "feature-2",
     icon: shield,
     title: "100% Secured",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "We take proactive steps make sure your information is secure.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Balance Transfer",
+    title: "24/7 customer Support",
     content:
-      "A balance transfer credit card can save you a lot of money in interest charges.",
+      "We provide 24/7 customer support to ur farmer friends",
   },
 ];
 
@@ -49,9 +47,9 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "Money is only a tool. It will take you wherever you wish, but it will not replace you as the driver.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
+      "very easy to use and helped me increase my yeild",
+    name: "Het Ram",
+    title: "Farmer(western Region)",
     img: people01,
   },
   {
@@ -59,7 +57,7 @@ export const feedback = [
     content:
       "Money makes your life easier. If you're lucky to have it, you're lucky.",
     name: "Steve Mark",
-    title: "Founder & Leader",
+    title: "Farmer(sout)",
     img: people02,
   },
   {
@@ -74,19 +72,13 @@ export const feedback = [
 
 export const stats = [
   {
-    id: "stats-1",
-    title: "User Active",
-    value: "3800+",
+   
   },
   {
-    id: "stats-2",
-    title: "Trusted by Company",
-    value: "230+",
+    
   },
   {
-    id: "stats-3",
-    title: "Transaction",
-    value: "$230M+",
+    
   },
 ];
 
@@ -179,21 +171,17 @@ export const socialMedia = [
   },
 ];
 
-export const clients = [
+export const clients = [0
   {
-    id: "client-1",
-    logo: airbnb,
+   
   },
   {
-    id: "client-2",
-    logo: binance,
+    
   },
   {
-    id: "client-3",
-    logo: coinbase,
+   ,
   },
   {
-    id: "client-4",
-    logo: dropbox,
+    
   },
 ];
