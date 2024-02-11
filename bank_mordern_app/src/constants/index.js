@@ -16,6 +16,8 @@ export const navLinks = [
   {
     id: "About US",
     title: "About US",
+    window.location.href = "aboutus.js",
+
   },
 ];
 
